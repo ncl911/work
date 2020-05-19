@@ -30,7 +30,7 @@
 不建议！！！
 
 ## 参数校验类
-
+建议：涉及数据库数据的校验不放参数校验类，参数校验类方法可都为static，不用交由容器管理
 
 
 # 底层基础包
@@ -58,6 +58,6 @@ redis做workerId没用上，如果不需要redis，建议给每个业务线设�
 ## gateway动态路由问题
 各服务的routeId存的string，取得时候用得keys命令取，不建议这么做，应该为hash存储。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTExMTk0LDE1NDcxOTMyOSw2NTk1Mj
-AxMzBdfQ==
+eyJoaXN0b3J5IjpbMTQ4Nzc4NjM2MCwxNTQ3MTkzMjksNjU5NT
+IwMTMwXX0=
 -->

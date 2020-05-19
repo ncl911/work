@@ -29,6 +29,10 @@
 ## 校验方法里面对校验参数进行修改问题
 不建议！！！
 
+## gateway动态路由问题
+各服务的routeId存的string，取得时候用得keys命令取，不建议这么做，应该为hash存储。
+
+
 # 底层基础包
 
 ## rocketmq
@@ -51,5 +55,6 @@ redis做workerId没用上，如果不需要redis，建议给每个业务线设�
 ## validate
 - 没有校验list类型数据的校验
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzE5MzI5LDY1OTUyMDEzMF19
+eyJoaXN0b3J5IjpbLTYyNjA1MjA4NCwxNTQ3MTkzMjksNjU5NT
+IwMTMwXX0=
 -->

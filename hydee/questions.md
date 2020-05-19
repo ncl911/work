@@ -26,6 +26,8 @@
 
 ## 校验方法应该直接抛出参数异常，而不是返回null在业务代码中判断null
 
+## 校验方法里面对校验参数进行修改问题
+不建议！！！
 
 # 底层基础包
 
@@ -49,5 +51,5 @@ redis做workerId没用上，如果不需要redis，建议给每个业务线设�
 ## validate
 - 没有校验list类型数据的校验
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5NTIwMTMwXX0=
+eyJoaXN0b3J5IjpbMTU0NzE5MzI5LDY1OTUyMDEzMF19
 -->
